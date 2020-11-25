@@ -1,18 +1,7 @@
 Criação de uma API Rest com Python
 ===
 
-O Python é uma linguagem que vem crescendo a cada ano que passa, então decidi começar a escrever sobre a mesma. Já utilizei várias linguagens para criação de APIs e vários frameworks também como Laravel(PHP), Zend(PHP), Spring Boot(Java), Jersey(Java), ExpressJS(NodeJS) e agora quero mostrar um pouco do Flask(Python).
-
-Phyton é uma linguagem bem elegante só pelo fato de fazer com que você deixe o seu código bem organizado(identado) já ganha uns 10 pontos comigo particularmente falando. Existem vários frameworks interessantes que faz com que você trabalhe de forma bem simples utilizando o Python, a própria linguagem em si já é bem simplificada.
-
-Quero mostrar de forma simples e objetiva como criar uma API Rest utilizando o Python. Então vamos lá:
-
-Primeira coisa que você deve fazer é instalar o Python em seu computador, no meu caso como estou utilizando Linux o Python 2.7 já vem instalado e se você estiver utilizando Mac também já estará instalado.
---
-Caso você esteja utilizando Windows, basta baixar o Python no site e fazer o next, next da instalação:
-https://www.python.org/downloads/
-
-Em segundo lugar você precisa instalar as libs do Flask que vamos utlizar. Nesse caso vamos utlizar: 
+você precisa instalar as libs do Flask que vamos utlizar. Nesse caso vamos utlizar: 
 ---
 
   * Flask
@@ -25,15 +14,6 @@ Para baixar essas libs basta executar no terminal o seguinte comando:
 ~~~
    $  pip install flask flask-jsonpify flask-sqlalchemy flask-restful
 ~~~
-
-Em terceiro, vamos para a mão na massa!
----
-
-* SQLite
-
-Nesse exemplo vamos utilizar o SQLite como banco de dados, para que você consiga acessar o banco com a tabela user que vamos utilizar basta baixar por esse link [aqui](https://github.com/python-curso/rest-api/raw/master/exemplo.db).
-
-O nome do arquivo de banco de dados é exemplo.db que ficará na raiz do seu projeto.
 
 * Python
 
